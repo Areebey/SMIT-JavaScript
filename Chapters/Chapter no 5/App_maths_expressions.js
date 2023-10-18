@@ -146,3 +146,44 @@ var shipingCharges=200;
 // Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 
 //     Pakistani Rupee and 1 Saudi Riyal = 28 Pakistani Rupee).
 
+// var USD=104.80;
+// var Riyal=28;
+
+// var PKR=USD*10+Riyal*25;
+
+// document.write(" One PKR in USD is "+USD+"$"+" And One PKR in Saudi Riyal is "+Riyal+"SR");
+
+// document.write(" Total currency in PKR is "+PKR+"RS");
+
+
+
+// Qno10. Write a program to initialize a variable with some number and do 
+// arithmetic in following sequence: 
+// a. Add 5 
+// b. Multiply by 10 
+// c. Divide the result by 2 Perform all calculations in a single expression 
+ 
+// var num=10;
+
+// var calculate=(num+5)*10;
+// var divide=calculate/2;
+
+// document.write("The result of expression is "+divide);
+
+
+// Qno11. The Age Calculator: Forgot how old someone is? Calculate it! 
+// a. Store the current year in a variable. 
+// b. Store their birth year in a variable. 
+// c. Calculate their 2 possible ages based on the stored values. 
+// Output them to the screen like so: “They are either NN or NN years old”. 
+ 
+// var currentYear=2023;
+// var birthYear=2003;
+
+// var age=currentYear-birthYear;
+
+// document.write(" Your DOB "+birthYear);
+// document.write(" Current Year "+currentYear);
+// document.write(" You're currently "+age+" Years old ");
+
+
