@@ -91,8 +91,11 @@
 // Qno5. Write a script to display multiplication table of any number in your 
 // browser. E.g 
 
-// Pending ---------------------
-
+// var num=4;
+// for(let i=0;i<=10;i++){
+//     document.write(num+" x "+i+" = "+num*i);
+//     console.log(num+" x "+i+" = "+num*i);
+// }
 
 // Qno6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here. 
 // a.  Store a Celsius temperature into a variable.
@@ -118,16 +121,26 @@
 // e. Shipping charges 
 // Compute the total cost & show the receipt in your browser
 
-var item1=100;
-var item2=250;
+// var item1=100;
+// var item2=250;
 
-var quantityItem1=5;
-var quantityItem2=2;
+// var quantityItem1=5;
+// var quantityItem2=2;
 
-var shipingCharges=200;
+// var shipingCharges=200;
 
-// Show Receipt
+// // Show Receipt
+// document.write("Price Of Item1 is "+item1);
+// document.write("Quantity Of Item1 is "+quantityItem1);
+// document.write("Price Of Item2 is "+item2);
+// document.write("Quantity Of Item2 is "+quantityItem2);
+// document.write("YOur Shiping Charges is "+shipingCharges);
 
+// var totalcost_item1=item1*quantityItem1;
+// var totalcost_item2=item2*quantityItem2;
+// var totalSum=totalcost_item1+ totalcost_item2+ shipingCharges;
+// console.log(totalSum)
+// document.write(" your Total cost is "+totalSum);
 
 
 // Qno8. Store total marks & marks obtained by a student in 2 variables. 
@@ -186,4 +199,23 @@ var shipingCharges=200;
 // document.write(" Current Year "+currentYear);
 // document.write(" You're currently "+age+" Years old ");
 
+// Qno12. The Geometrizer: Calculate properties of a circle. 
+// a. Store a radius into a variable. 
+// b. Calculate the circumference based on the radius, and output 
+// “The circumference is NN”. 
+// (Hint : Circumference of a circle = 2 π r , π = 3.142) 
+// Calculate the area based on the radius, and output “The  area is NN”. 
+// (Hint : Area of a circle = π r2, π = 3.142) 
+
+
+
+// Qno13. The Lifetime Supply Calculator: Ever wonder how much a
+//  “lifetime supply” of your favorite snack is? Wonder no more. 
+//  a. Store your favorite snack into a variable 
+//  b. Store your current age into a variable. 
+//  c. Store a maximum age into a variable. 
+//  d. Store an estimated amount per day (as a number). 
+//  e. Calculate how many would you eat total for the rest of your life. 
+// Output the result to the screen like so: “You will need NNNN to last 
+// you until the ripe old age of NN”. 
 
