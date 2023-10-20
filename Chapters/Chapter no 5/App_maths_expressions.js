@@ -208,6 +208,18 @@
 // (Hint : Area of a circle = π r2, π = 3.142) 
 
 
+// var radius=20;
+// var pi=3.142;
+// var circumference_circle=2*pi*radius;
+
+// console.log("The radius of the circle is "+radius)
+// console.log("The Circumference of the Circle based on the radius is "+circumference_circle);
+
+// var area=pi*radius*radius;
+
+// console.log("The are of the circle is "+area);
+
+
 
 // Qno13. The Lifetime Supply Calculator: Ever wonder how much a
 //  “lifetime supply” of your favorite snack is? Wonder no more. 
@@ -219,3 +231,16 @@
 // Output the result to the screen like so: “You will need NNNN to last 
 // you until the ripe old age of NN”. 
 
+
+var fvrt_snacks="pringles";
+var age=20;
+var estimated_age=80;
+var quantity_of_snacks_daily=3;
+
+var total_amount=quantity_of_snacks_daily*estimated_age-age*quantity_of_snacks_daily;
+
+
+console.log("Your Favorite Snacks is "+fvrt_snacks);
+console.log("Your Current Age is "+age);
+console.log("Your Estimated Age is "+estimated_age)
+console.log("You will need "+total_amount+" to last you until the ripe old age of "+estimated_age);
