@@ -286,10 +286,35 @@
 
 var num1=prompt("Enter the 1st number");
 var num2=prompt("Enter the 2nd number");
+var operator=prompt("Enter the mathamatical operator here eg: +,-,*,/and %")
 
-var add=num1+num2;
+var add=parseInt(num1)+parseInt(num2);
 var subtract=num1-num2;
 var multiply=num1*num2;
 var divide=num1/num2;
+var reminder=num1%num2;
 
-
+if(operator=="+"|| operator=="add"){
+    console.log("The Addition result is "+add);
+    alert("The Addition result is "+add);
+}
+else if(operator=="-"|| operator=="subtract"){
+    console.log("The Subtraction result is "+subtract);
+    alert("The Subtraction result is "+subtract);
+}
+else if(operator=="*"|| operator=="multiply"){
+    console.log("The Multiplication result is "+multiply);
+    alert("The Multiplication result is "+multiply);
+}
+else if(operator=="/"|| operator=="divide"){
+    console.log("The Division result is "+divide);
+    alert("The Division result is "+divide);
+}
+else if(operator=="%"|| operator=="reminder"){
+    console.log("The reminder result is "+reminder);
+    alert("The reminder result is "+reminder);
+}
+else {
+    console.log("Please enter the Correct Operator")
+    alert("Please enter the Correct Operator")
+}
